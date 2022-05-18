@@ -6,16 +6,20 @@
         <meta name="description" content="Este es mi portafolio bonito">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Gregory">
-        <title>Mi portafolio web</title>
+        <title>My web portfolio</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/99020ee4f8.js" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header class="header">
+            <img class="header--img" src="./gregory.jpg" alt="Logo Gregory">
+            <a href="./">Home</a>
+            <nav class="header--nav">
+                <ul class="header--list">
                     <li>
                         <a href="./contact.html">Contact</a>
                     </li>
@@ -23,27 +27,69 @@
                         <a href="./blog.html">Blog</a>
                     </li>
                     <li>
-                        <a href="./projects.html">Proyectos</a>
+                        <a href="./projects.html">Projects</a>
                     </li>
                     <li>
-                        <a href="./about.html">Sobre mi</a>
+                        <a href="./about.html">About me</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="https://picsum.photos/800" alt="Mi foto de perfil">
-            <h1>mvgregoryj portafolio</h1>
-            <p>Esta va a ser mi descripción</p>
+        <main class="main">
+            <div class="main--container">
+                <div class="img-container">
+                    <img class="main--img" src="./gregory.jpg" alt="My profile picture">
+                </div>
+    
+                <div class="main--info">
+                    <h2 class="info--name">mvgregoryj Frontend Developer</h2>
+                    <p class="info--description">I am a student of the Computer Engineering career at the Simón Bolívar University, Venezuela. I like everything related to technology and advances in science, I consider myself a geek. I also like to play sports and I am very passionate about football, Visca Barça.</p>
+                    <div class="main--links">
+                        <a class="main--link main--link__aqua" href="./contact.html">Contact</a>
+                        <a class="main--link main--link__transparent" href="./about.html">About me</a>
+                    </div>
+                    <div class="main--social-media">
+                        <h2>Follow me in</h2>
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/gregor_val" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/gregory-mu%C3%B1oz-valero-813981191/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/mvgregoryj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/mvgregoryj" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <ul>
-                <li>React</li>
-                <li>html</li>
-                <li>css</li>
-                <li>js</li>
+                <li>
+                    <img src="" alt="react">
+                    <p>React</p>
+                </li>
+                <li>
+                    <img src="" alt="html">
+                    <p>Html</p>
+                </li>
+                <li>
+                    <img src="" alt="css">
+                    <p>Css</p>
+                </li>
+                <li>
+                    <img src="" alt="js">
+                    <p>Js</p>
+                </li>
+                <li>
+                    <img src="" alt="python">
+                    <p>Python</p>
+                </li>
+                <li>
+                    <img src="" alt="django">
+                    <p>Django</p>
+                </li>
             </ul>
 
             <footer>
-                Todos los derechos reservados
+                Todos los derechos reservados 1998
             </footer>
         </main>
     </body>
